@@ -3,7 +3,7 @@ pipeline{
     stages{
       stage('checkout') {
       steps {
-          checkout scm
+         sh 'git 'https://github.com/jagadeeshdevops/sample_pipe_line.git''
            }
       }
        stage('build') {
